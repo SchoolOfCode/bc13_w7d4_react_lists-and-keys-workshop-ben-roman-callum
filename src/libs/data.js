@@ -74,6 +74,22 @@ const samplePosts = [
       alt: "A pigeon with a spectacular green plumage stares thoughtfully into the distance.",
     },
   },
+  {
+    postId: 4,
+    title: "A Juicy Pidgeon",
+    date: "14/09/22",
+    author: "Jimbob Flies",
+    text: lorem.generateParagraphs(7),
+    highlights: [
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+    ],
+    image: {
+      link: "https://images.theconversation.com/files/224952/original/file-20180626-112614-1y2jwgo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+      alt: "Badman pigeon",
+    },
+  }
 ];
 
 export default samplePosts;
