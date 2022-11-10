@@ -89,7 +89,7 @@ const samplePosts = [
       link: "https://images.theconversation.com/files/224952/original/file-20180626-112614-1y2jwgo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
       alt: "Badman pigeon",
     },
-  }
+  },
 ];
 
 export default samplePosts;

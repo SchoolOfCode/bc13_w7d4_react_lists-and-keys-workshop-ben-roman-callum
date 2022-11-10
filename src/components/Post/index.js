@@ -11,7 +11,7 @@ function Post({ title, date, author, text, highlights, image }) {
       <p>{text}</p>
 
       {highlights.map((highlight) => {
-        return <mark>{highlight}</mark>;
+        return <mark key={highlight}>{highlight}</mark>;
       })}
 
       <img src={image.link} alt={image.alt}></img>
