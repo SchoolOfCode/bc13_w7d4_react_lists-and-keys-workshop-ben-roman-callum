@@ -1,4 +1,9 @@
-#post {
-  border: 10px solid fuchsia;
-  width: 50vw;
+img {
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+mark {
+  display: flex;
+  flex-direction: column;
 }
